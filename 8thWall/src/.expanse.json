@@ -139,14 +139,42 @@
       "id": "ee9780b4-52da-4809-88a0-7e1069418b29",
       "position": [
         0,
-        0.7920812687523054,
-        0
+        0,
+        -6.938893903907228e-18
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        1.0000000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "Tarjeta"
+      },
+      "order": 3.2521744532798422
+    },
+    "fab0b99c-0dbc-481e-aa39-ff4c3effaef8": {
+      "id": "fab0b99c-0dbc-481e-aa39-ff4c3effaef8",
+      "position": [
+        -0.8567592327398781,
+        0,
+        -0.3561857404943263
       ],
       "rotation": [
         0,
         0,
-        -0.7071067811865475,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         1,
@@ -157,11 +185,127 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Objetivo de la imagen",
-      "imageTarget": {
-        "name": ""
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Untitled.glb"
+        },
+        "animationClip": "Stay",
+        "loop": true
       },
-      "order": 3.2521744532798422
+      "name": "Untitled.glb",
+      "order": 4.633950413611012
+    },
+    "4275f72b-8089-4a9e-8ce6-03223caa9628": {
+      "id": "4275f72b-8089-4a9e-8ce6-03223caa9628",
+      "position": [
+        1.2254177986752375,
+        1.7791256748524387,
+        -0.5310619503499443
+      ],
+      "rotation": [
+        0,
+        -0.08715574274765829,
+        0,
+        0.9961946980917455
+      ],
+      "scale": [
+        0.4999999999999993,
+        0.5,
+        0.4999999999999993
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Image_2026-08-05_at_93157_AM_1.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 24
+      },
+      "name": "Instagram",
+      "order": 5.814559199093592
+    },
+    "8f5fb39b-619c-46e6-b322-e8be6da255c0": {
+      "id": "8f5fb39b-619c-46e6-b322-e8be6da255c0",
+      "position": [
+        1.2202479169875753,
+        1.1918482655300637,
+        -0.531
+      ],
+      "rotation": [
+        0,
+        -0.08715574274765822,
+        0,
+        0.9961946980917455
+      ],
+      "scale": [
+        0.4999999999999998,
+        0.5,
+        0.4999999999999998
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Image_2026-08-05_at_93157_AM_3.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 12
+      },
+      "name": "Link",
+      "order": 7.5682269959702335,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "22662543-a4b1-4a8e-96ef-a2d1e0a4d4b0": {
+      "id": "22662543-a4b1-4a8e-96ef-a2d1e0a4d4b0",
+      "position": [
+        1.2093558001321545,
+        0.6203618070662855,
+        -0.531
+      ],
+      "rotation": [
+        0,
+        -0.08715574274765829,
+        0,
+        0.9961946980917455
+      ],
+      "scale": [
+        0.4999999999999996,
+        0.5000000000000001,
+        0.4999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Image_2026-08-05_at_93157_AM.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "borderRadius": 50
+      },
+      "name": "Github",
+      "order": 8.761674161963803,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
     }
   },
   "spaces": {
