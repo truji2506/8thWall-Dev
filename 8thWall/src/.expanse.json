@@ -312,8 +312,8 @@
       "id": "71a31f1c-a389-4094-a423-da737c408871",
       "position": [
         -0.023146467745087444,
-        1.541830177611248,
-        -2.6704440793170465
+        1.936577939851398,
+        -3.5573104170210095
       ],
       "rotation": [
         0,
@@ -322,8 +322,8 @@
         1
       ],
       "scale": [
-        2.406773332954121,
-        1.7407871631730718,
+        4.061668507049598,
+        2.4667955478270835,
         1.7805687014396687
       ],
       "geometry": {
@@ -336,8 +336,10 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/89894-616430996_small.mp4"
-        }
+          "asset": "assets/Video.mp4"
+        },
+        "roughness": 0.501,
+        "wrap": "repeat"
       },
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
@@ -487,12 +489,331 @@
       },
       "material": {
         "type": "basic",
-        "color": "#FFFFFF"
+        "color": "#a8a399"
       },
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "name": "Caja",
       "order": 12.505370712660964
+    },
+    "28c79d2d-6396-40c2-b197-20367e900e2d": {
+      "id": "28c79d2d-6396-40c2-b197-20367e900e2d",
+      "position": [
+        0,
+        1.3132731950018148,
+        -5.675492801551152
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        8.008068193103533,
+        4.4671696910915575,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#99948b"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Muro",
+      "order": 14.989421836550386
+    },
+    "9cb5b7ea-11db-48c6-a573-5bc5b9e07025": {
+      "id": "9cb5b7ea-11db-48c6-a573-5bc5b9e07025",
+      "position": [
+        -0.08055368429517418,
+        0,
+        -1.2831821046572638
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Couch_by_J-Toastie_-_obMPe0AheB.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Sofa",
+      "order": 16.50562461650146
+    },
+    "0e05c933-0818-4b80-84d5-a7bb3c616e34": {
+      "id": "0e05c933-0818-4b80-84d5-a7bb3c616e34",
+      "position": [
+        -1.9048880628960059,
+        1.6527939229049684,
+        -1.1191893667670996
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Floor_Lamp_by_Zsky_-_LtyiCbMRhC.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Lampara",
+      "order": 18.020643050817807
+    },
+    "9ad9ee08-068c-4223-9876-da7aaf96dac8": {
+      "id": "9ad9ee08-068c-4223-9876-da7aaf96dac8",
+      "position": [
+        -3.8837241649855363,
+        1.2561205171571488,
+        -1.6469467237894906
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        8.008068193103536,
+        4.4671696910915575,
+        1.0000000532124822
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#99948b"
+      },
+      "components": {},
+      "name": "Muro 1",
+      "order": 15.77443362882245,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "a2edfcde-e913-4fd9-8c36-80cdb8a62b48": {
+      "id": "a2edfcde-e913-4fd9-8c36-80cdb8a62b48",
+      "position": [
+        3.9389679092517103,
+        1.2561205171571488,
+        -1.729169160117429
+      ],
+      "rotation": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        8.008068193103536,
+        4.4671696910915575,
+        1.0000000532124822
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#99948b"
+      },
+      "components": {},
+      "name": "Muro 2 ",
+      "order": 16.290150004279965,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "b24d37e7-ff37-439f-b7bd-d5b2d45fc6f9": {
+      "id": "b24d37e7-ff37-439f-b7bd-d5b2d45fc6f9",
+      "position": [
+        -1.7889652218827319,
+        1.1332058301617673,
+        -3.1129556128720286
+      ],
+      "rotation": [
+        0,
+        0.9766450813816635,
+        0,
+        -0.21485898867164896
+      ],
+      "scale": [
+        1.0000000000000009,
+        1,
+        1.0000000000000009
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "5e637c7a-3ef5-4f41-86c1-9f6a58fedb79": {
+          "id": "5e637c7a-3ef5-4f41-86c1-9f6a58fedb79",
+          "name": "abrir-link",
+          "parameters": {
+            "link": "https://www.youtube.com/watch?v=QiDk1zbTc3Y"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/LoPo_Kratos_by_Tipatat_Chennavasin_-_bUjppHNXtk1.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Kratos",
+      "order": 19.166335934556457,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "ec6d18bf-e288-4cbb-91c2-1984b957f1f6": {
+      "id": "ec6d18bf-e288-4cbb-91c2-1984b957f1f6",
+      "position": [
+        -1.1009930232469676,
+        0.6329879706312812,
+        -0.5143439852818443
+      ],
+      "rotation": [
+        0,
+        0.9899745675665297,
+        0,
+        -0.14124572762197998
+      ],
+      "scale": [
+        1.0000000000000009,
+        1,
+        1.0000000000000009
+      ],
+      "geometry": null,
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "152f36f5-b775-4552-b81c-bbb555cab259": {
+          "id": "152f36f5-b775-4552-b81c-bbb555cab259",
+          "name": "abrir-link",
+          "parameters": {
+            "link": "https://www.youtube.com/watch?v=WNvMgS8984I"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/LoPo_Atreus_from_God_of_War_by_Tipatat_Chennavasin_-_cLWkzeQWMGH.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Atreus",
+      "order": 20.861138986844463,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "b77210ff-973b-465b-8ebe-3e7124ee20ec": {
+      "id": "b77210ff-973b-465b-8ebe-3e7124ee20ec",
+      "position": [
+        -0.0665466274299321,
+        -0.07609393937079381,
+        -0.44460922522502083
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        21.83549504863424,
+        1.1904054813421512,
+        42.75892076557005
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Rug_by_Akimkhan_-_cORwtjCf95.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Rug_by_Akimkhan_-_cORwtjCf95.glb",
+      "order": 21.969237583547326
+    },
+    "a2c8c844-029b-428b-97f0-66ec833c11c8": {
+      "id": "a2c8c844-029b-428b-97f0-66ec833c11c8",
+      "position": [
+        -1.4849484004989608,
+        2.9710599911441355,
+        0.0898173627330312
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "light": {
+        "type": "area",
+        "color": "#7f7c2f"
+      },
+      "name": "Luz de área",
+      "order": 23.831210726183105
     }
   },
   "spaces": {
